@@ -1,0 +1,11 @@
+c:\users\steven\documents\visual studio 2010\Projects\CEXtoCryptofolio\CEXtoCryptofolio\bin\Debug\CEXtoCryptofolio.exe
+c:\users\steven\documents\visual studio 2010\Projects\CEXtoCryptofolio\CEXtoCryptofolio\bin\Debug\CEXtoCryptofolio.pdb
+c:\users\steven\documents\visual studio 2010\Projects\CEXtoCryptofolio\CEXtoCryptofolio\obj\x86\Debug\CEXtoCryptofolio.Form1.resources
+c:\users\steven\documents\visual studio 2010\Projects\CEXtoCryptofolio\CEXtoCryptofolio\obj\x86\Debug\CEXtoCryptofolio.Properties.Resources.resources
+c:\users\steven\documents\visual studio 2010\Projects\CEXtoCryptofolio\CEXtoCryptofolio\obj\x86\Debug\CEXtoCryptofolio.csproj.GenerateResource.Cache
+c:\users\steven\documents\visual studio 2010\Projects\CEXtoCryptofolio\CEXtoCryptofolio\obj\x86\Debug\CEXtoCryptofolio.exe
+c:\users\steven\documents\visual studio 2010\Projects\CEXtoCryptofolio\CEXtoCryptofolio\obj\x86\Debug\CEXtoCryptofolio.pdb
+c:\users\steven\documents\visual studio 2010\Projects\CEXtoCryptofolio\CEXtoCryptofolio\bin\Debug\Newtonsoft.Json.dll
+c:\users\steven\documents\visual studio 2010\Projects\CEXtoCryptofolio\CEXtoCryptofolio\bin\Debug\Newtonsoft.Json.pdb
+c:\users\steven\documents\visual studio 2010\Projects\CEXtoCryptofolio\CEXtoCryptofolio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Steven\documents\visual studio 2010\Projects\CEXtoCryptofolio\CEXtoCryptofolio\bin\Debug\CEXtoCryptofolio.exe.config
