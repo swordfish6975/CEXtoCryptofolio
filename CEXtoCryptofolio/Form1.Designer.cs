@@ -51,6 +51,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -89,9 +90,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(15, 49);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(208, 13);
+            this.label2.Size = new System.Drawing.Size(237, 13);
             this.label2.TabIndex = 3;
-            this.label2.Text = "2.  Use the drop downs to add one only of:";
+            this.label2.Text = "2.  Use the drop downs to add EXACTLY one of:";
             // 
             // label3
             // 
@@ -277,11 +278,21 @@
             this.label15.TabIndex = 22;
             this.label15.Text = "6. Click Activate on the key and verify in your email";
             // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(43, 442);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(293, 13);
+            this.label17.TabIndex = 23;
+            this.label17.Text = "7. Dont press calculate - press reload folio or reload the page";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(403, 452);
+            this.ClientSize = new System.Drawing.Size(403, 464);
+            this.Controls.Add(this.label17);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
@@ -290,6 +301,7 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -318,6 +330,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
     }
 }
 

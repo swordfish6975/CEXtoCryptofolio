@@ -23,15 +23,30 @@ namespace CEXtoCryptofolio
             InitializeComponent();
         }
 
+
+        bool buttonpress = true;
+        StringBuilder sb;
+
+
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            sb = new StringBuilder();
 
             var temp = CEXtoCryptofolio.Properties.Settings.Default;
             tbxUUID.Text = temp.UUID;
             tbxSecret.Text = temp.Secret;
             tbxKey.Text = temp.Key;
             tbxUserName.Text = temp.Username;
+
+
+            string[] args = Environment.GetCommandLineArgs();
+
+            if (args.Length > 1)
+            {
+                buttonpress = false;
+                button1_Click(sender, e);
+            }
+
 
 
         }
@@ -177,12 +192,29 @@ namespace CEXtoCryptofolio
                 var html = reader.ReadToEnd();
 
                 if (html != "Success")
-                    MessageBox.Show("Failed to upload Coin:" + coin.Key + " Value:" + coin.Value);
+                {
+                    string text = "Failed to upload Coin:" + coin.Key + " Value:" + coin.Value;
+                    if (buttonpress)
+                        MessageBox.Show(text);
+                    else
+                        sb.Append(text + Environment.NewLine);
+
+                }
 
                 webResp.Close();
             }
 
-            MessageBox.Show("Done");
+            if (buttonpress)
+                MessageBox.Show("Done");
+            else
+            {
+                sb.Append("Done" + Environment.NewLine);
+                File.AppendAllText(Application.StartupPath + "/log.txt", sb.ToString());
+                sb.Clear();
+                Close();
+            }
+
+
         }    
     }
 }
